@@ -8,8 +8,8 @@
 
 		/* Yocto SDK Configuration */
 		"ARCH":"aarch64-poky-linux",
-		"OECORE_NATIVE_SYSROOT":"/opt/fsl-imx-xwayland/5.10-hardknott/sysroots/x86_64-pokysdk-linux",
-		"SDKTARGETSYSROOT": "/opt/fsl-imx-xwayland/5.10-hardknott/sysroots/cortexa53-crypto-poky-linux",
+		"OECORE_NATIVE_SYSROOT":"/opt/fsl-imx-wayland/5.15-kirkstone/sysroots/x86_64-pokysdk-linux",
+		"SDKTARGETSYSROOT": "/opt/fsl-imx-wayland/5.15-kirkstone/sysroots/armv8a-poky-linux",
 
 		/* Yocto SDK Constants */
 		"CC_PREFIX": "${config:MCONFIG.OECORE_NATIVE_SYSROOT}/usr/bin/${config:MCONFIG.ARCH}/${config:MCONFIG.ARCH}-",
